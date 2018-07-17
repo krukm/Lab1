@@ -1,3 +1,25 @@
-.flex-container {
-    display: flex;
+body {
+    background-color: #f9fafc;
+}
+
+a {
+    color: #69696a;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h4 {
+    color: #69696a;
+    margin: 0;
+    float: left;
+    padding: 10px;
+}
+
+.highlight {
+    text-align: center;
+    width: 6%;
+    background-color: #000;
+    color: #f9fafc;
+    border-radius: 2em;
 }
