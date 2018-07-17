@@ -31,6 +31,7 @@ button {
     border-radius: 2em;
     border: none;
     height: 3em;
+    width: 8em;
     cursor: pointer;
     position: absolute;
     top: 45em;
@@ -39,7 +40,7 @@ button {
 
 .highlight {
     text-align: center;
-    width: 6%;
+    width: 5em;
     background-color: #000;
     color: #f9fafc;
     border-radius: 2em;
