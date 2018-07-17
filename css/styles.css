@@ -2,11 +2,19 @@ body {
     background-color: #f9fafc;
 }
 
+nav {
+    width: 71%;
+}
+
 a {
     color: #69696a;
     float: right;
     padding: 10px;
     text-decoration: none;
+}
+
+h2 {
+    padding: 0 0 0 10px;
 }
 
 h4 {
@@ -22,4 +30,58 @@ h4 {
     background-color: #000;
     color: #f9fafc;
     border-radius: 2em;
+}
+
+.clear {
+    clear: both;
+}
+
+.paragraph {
+    border-left: 2px solid #69696a;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.section1 {
+    padding-top: 7em;
+}
+
+.circle1 {
+    background-color: rgba(247, 193, 162, 0.7);
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10em;
+    left: -33em;
+}
+
+.circle2 {
+    background-color: rgba(207, 130, 213, 0.6);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5em;
+    left: -32em;
+}
+
+.circle3 {
+    background-color: rgba(247, 136, 167, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    top: 4em;
+    left: -42em;
+}
+
+.col1 {
+    width: 45%;
+    float: left;
+}
+
+.col2 {
+    float: right;
+    position: relative;
 }
